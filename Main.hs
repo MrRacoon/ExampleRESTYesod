@@ -13,11 +13,8 @@
 
 import Control.Monad.Logger (runNoLoggingT)
 import Data.Text            (Text)
-import Data.Time
 import Database.Persist.Sqlite
 import Yesod
-import Text.Hamlet
-import Text.Blaze
 
 
 share [mkPersist sqlSettings, mkMigrate "migrateAll"] [persistLowerCase|
