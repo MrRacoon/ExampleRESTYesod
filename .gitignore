@@ -1,0 +1,20 @@
+
+# Exclude Binaries
+bin
+bin/*
+
+# Exclude build files
+*.hi
+*.o
+
+# Exclude sqlite db file
+*.db3
+
+# Exclude private crypto stuff
+*.aes
+
+# Exclude the HSenvironment
+.hsenv/*
+
+# Exclude cabal files
+*.cabal
